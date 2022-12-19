@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compaatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lee Keung</title>
+      
+        <link rel="stylesheet" href="./style.css">
+          
+
+    </head>
+    <body>
+        <nav class="navbar">
+            <h1 class="logo">李強記有限公司 <br>Lee Keung</h1>
+            
+            <ul class="nav-links">
+                <li><a href="index.html"style="color:black;">主頁</a></li>
+                <li><a href="index.html"style="color:black;">產品</a></li>
+                <li class="active"><a href="index.html"style="color:red;">聯絡我們</a></li>
+                <li><a href="index.html"style="color:black;">公司地址</a></li>
+            </ul>
+            <img src="./img/menu-btn.png" alt="" class="menu-btn">
+        </nav>
+        <header>
+            <div class="header-content">
+                <h2>租/售全新鋁架</h2> 
+                <div class="line"></div>
+                <h1>專業提供安全水馬 閃燈 欄河 環保物料 優質實用</h1>
+                <a href="#" class="ctn">聯絡張先生9415 2354<br>聯絡吳先生9013 7897<br>電郵：ding1996918@gmail.com</a>
+            </div>
+        </header>
+
+        <section class="events">
+            <div class="title">
+                <h1>租/售全新鋁架</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/img1.png" alt="">
+                    <h4>租/售 (窄身）鋁架</h4>
+                    <h4>窄身尺寸:0.75m x 2.0m</h4>
+                    <a href="#" class="ctn">learn more</a>
+                </div>
+                <div class="col">
+                    <img src="./img/img2.png" alt="">
+                    <h4>租/售 (闊身）鋁架</h4>
+                    <h4>闊身尺寸:1.35m x 2.0m</h4>
+                    <a href="#" class="ctn">learn more</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="events">
+            <div class="title">
+                <h1>售賣全新水馬/屏風</h1>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="./img/wh4.png" alt="">
+                    <h4>水馬連屏風<br>可拆解</h4>
+                     <!-- 可加入尺寸 -->
+                    <a href="#" class="ctn">learn more</a>
+                </div>
+                <div class="col">
+                    <img src="./img/wh3.png" alt="">
+                    <h4>高身水馬連屏風<br>可以選擇顏色（黃色/紅色/白色）</h4>
+                    <!-- 可加入尺寸 -->
+                    <a href="#" class="ctn">learn more</a>
+                </div>
+            </div>
+        </section>
+
+         <section class="explore">
+             <div class="explore-content">
+                <h1>關於我們</h1>
+                <p>李強記自2011年成立以來，是一家專門從事租賃水馬和租用鋁架流動工作台設備，一直專注於提供各項多元化，包括項目規劃、設計方案、技術咨詢、實地勘察、項目報價、施工方案及風險評估，並可提供安全的表格五，繼續提供環保、最具成本效益和追求安全的施工方法，及提供更優質、更卓越的產品和服務給我們的所有尊貴客戶 </p>
+                <a href="#" class="ctn">李強記裝飾工程有限公司</a>
+             </div>
+         </section>
+
+         <section class="tours">
+             <div class="row">
+                 <div class="col">
+                      <h1>選購其他貨品</h1>
+                      <h1>橋板 2M (2000 x 250 x 45 mm)<br>橋板 3M (3000 x 250 x 45 mm)<br>橋板 4M (4000 x 250 x 45 mm)<br>
+                        塑膠安全護欄(2000x1000mm)<br>沙包<br>喉通（尺寸6米長喉通 (48 mm)</h1>
+                      <a href="#" class="ctn">LEARN</a>
+                 </div>
+                 <div class="col image-col">
+                     <div class="image-gallery">
+                         <img src="img/1.png" alt="">
+                         <img src="img/pp1.png" alt="">
+                         <img src="img/sb1.png" alt="">
+                         <img src="img/wi1.png" alt="">
+                     </div>
+                 </div>
+             </div>
+         </section>
+
+         <div class="foot">
+         <section class="footer">
+            
+             <p>Copyright 版權所有 © 2021 李強記有限公司 Lee Keung Limited</p>
+             <p>地址：上水上水彩園路9號深港中心1樓</p>
+             <p>電話：(852) 9415 2354  |  Whatsapp: (852) 9415 2354  |  電郵：ding1996918@gmail.com </p>
+             <p>辦工時間：（星期一至日）24Hours</p>
+
+         </section>
+
+        </div>
+        <script>
+            const menuBtn = document.querySelector('.menu-btn')
+            const navlinks = document.querySelector('.nav-links')
+
+            menuBtn.addEventListener('click',()=>{
+                navlinks.classList.toggle('mobile-menu')
+            })
+        </script>
+    </body>
+</html>
